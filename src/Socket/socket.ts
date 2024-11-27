@@ -132,7 +132,6 @@ export const makeSocket = (config: SocketConfig) => {
 		)
 	}
 	
-src/Socket/socket.ts(762,3): error TS2552: Cannot find name 'requestPairingCode'. Did you mean 'getPairingCode'?
 	/** send a binary node */
 	const sendNode = (frame: BinaryNode) => {
 		if(logger.level === 'trace') {
